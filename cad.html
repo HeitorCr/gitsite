@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8">
+		<link>
+		<title> Curiosidades e Dicas </title>
+	</head>
+
+	<body>
+		<h1 align="middle"><strong> Netflix Cadastro </strong></h1> <br>
+        
+        <body>
+        <form action="enviar.py">
+            <fieldset>
+                <legend>Dados pessoais:</legend>
+            
+                Nome:<br>
+                <input type="text" name="nome"><br>
+            
+                Sobrenome:<br>
+                <input type="text" name="sobrenome"><br>
+                
+                Endereço:<br>
+                <input type="text" name="endereco"><br><br>
+                
+            
+            
+                <input type="radio" name="estado-civil" value="casado" checked> Casado <br>
+            
+                <input type="radio" name="estado-civil" value="solteiro" > Solteiro <br>
+            
+                <input type="radio" name="estado-civil" value="outros" > Outros <br><br>
+            </fieldset><br>
+                
+            <fieldset>
+                Selecione seu Plano:
+                <select name="carros">
+                    <option value="basico">Básico - R$19,90</option>
+                    <option value="padrao">Padrão - R$27,90</option>
+                    <option value="premium">Premium - R$37,90</option>
+                </select>
+            </fieldset><br>
+                
+            <fieldset>
+                Que estilo de filmes você gosta para ajudar site estar mais eprto de você!<br><br>
+                <input type="checkbox" name="estilo" value"suspense">Suspense<br>
+                
+                <input type="checkbox" name="estilo" value"acao">Ação<br>
+                
+                <input type="checkbox" name="estilo" value"comedia">Comédia<br>
+                
+                <input type="checkbox" name="estilo" value"outros">Outros<br>
+                
+            </fieldset><br>
+            
+            <fieldset>
+            Data de nascimento:<br>
+            <input type="datetime-local"><br><br>
+            
+            Mês - Ano:<br>
+            <input type="month"><br><br>
+            
+            E-mail:<br>
+            <input type="email"><br><br>
+            
+            
+            </fieldset>
+            
+             <br><textarea name="sugestao" rows="10" cols="30">Deixe sua sugestão aqui!</textarea><br><br>
+            
+            Deseja receber notificações sobre promoções por e-mail?<br>
+            <input type="radio" name="sim" value="sim" checked> Sim <br>
+            
+            <input type="radio" name="nao" value="nao" > Não <br><br>
+            
+            
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            
+        </form>
+        
+        <!-- Inserir um botão para ser direcionado para o Cadastro -->
+        <br><a href="ativ.html"><button name="button">voltar</button></a>
+            
+        <!-- Coloquei uma imagem de background para melhorar pouco aparência do site-->
+        <body background="v.png" />
+            
+	</body>
+
+</html>
